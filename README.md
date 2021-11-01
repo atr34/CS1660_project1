@@ -15,6 +15,7 @@ https://hub.docker.com/repository/docker/atreuter/spark_image
 ### Sonar
 https://hub.docker.com/repository/docker/atreuter/sonar_container
 
+### Hadoop
 
 ## Kubernetes Portion
 I have been working on the kubernetes portion of this project but I have not completed enough to display anything in the gitub repo.
