@@ -1,4 +1,4 @@
-# Jupyter Notebook
+# Hadoop
 
 Use this docker image when following the instructions<br>
 https://hub.docker.com/r/bde2020/hadoop-namenode
