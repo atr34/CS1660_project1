@@ -26,5 +26,4 @@ Go to Workloads under the Kubernetes Registry and expose to 8080:8080 for big-da
 The terminal application was created using a Vuejs app. This means that if you want to update or change the webapp you just need to make changes locally (clone this repository and make changes) and then just rebuild and deploy the image on Google Cloud by following the same steps above (obvoiusly without my username now). If you wish to run this project locally you can follow the official documentation here 
 <br> https://vuejs.org/v2/guide/installation.html </br> 
 and once everything is installed just run `npm run serve`
-
 This project supports vuetify so anything public libraries that you want to add can easily be added: https://vuetifyjs.com/en/
