@@ -19,16 +19,20 @@ This will place the docker containers for hadoop-namenode and hadoop-datanode in
 
 ### Add hadoop-namenode to the GKE and Expose to a port
 Go to Hadoop Namenode in the Container Registry. <br> 
-[[Enter image Here]] <br>
-<p>Select Deploy to GKE and add the following enviroment vairables </p>
-[[Enter image Here]]
+![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/NamenodeContainer.png)
+Select Deploy to GKE and add the following enviroment vairables
+![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/NameNodeEnvironmentVariables.png)
+Adjust replicas to 1 <br>
 Go to Workloads under the Kubernetes Registry and expose to 9870:9870 and 9000:9000 in this order
 
 ### Add hadoop-datanode to the GKE and Expose to a port
 Go to Hadoop datanode in the Container Registry. <br> 
-[[Enter image Here]] <br>
-<p>Select Deploy to GKE and add the following enviroment vairables </p>
-[[Enter image Here]]
+![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/DatanodeContainer.png)
+Select Deploy to GKE and add the following enviroment vairables
+![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/DatanodeEnvironmentVariables.png)
 
+
+
+Adjust replicas to 2
 ### End Result
-[[Enter image Here]
+![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/HadoopImage.png)
