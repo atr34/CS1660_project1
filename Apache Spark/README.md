@@ -3,6 +3,8 @@
 Use this docker image when following the instructions<br>
 https://hub.docker.com/r/bitnami/spark
 
+To containerize this image run `docker-compose up` in this directory
+
 ### Create the Container in Google Cloud
 In your cluster cloud shell run the following commands
 ```bash
