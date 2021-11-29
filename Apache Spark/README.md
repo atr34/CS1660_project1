@@ -17,16 +17,17 @@ This will place the docker containers for spark-master and spark-worker in the c
 
 ### Add spark-master to the GKE and Expose to a port
 Go to spaker-master in the Container Registry. <br> 
-[[Enter image Here]] <br>
-<p>Select Deploy to GKE and add the following enviroment vairables </p>
-[[Enter image Here]]
+![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/SparkMasterContainer.png)
+Select Deploy to GKE and add the following enviroment vairables
+![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/SparkMasterEnvironmentVariables.png)
+Update the replicas to 1 <br>
 Go to Workloads under the Kubernetes Registry and expose to 9000:9000
 
 ### Add spark-worker to the GKE and Expose to a port
 Go to Hadoop datanode in the Container Registry. <br> 
-[[Enter image Here]] <br>
-<p>Select Deploy to GKE and add the following enviroment vairables </p>
-[[Enter image Here]]
-
+![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/SparkWorkerContainer.png)
+Select Deploy to GKE and add the following enviroment vairables
+![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/SparkWorkerEnvironmentVariables.png)
+Update the replicas to 2
 ### End Result
-[[Enter image Here]
+![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/SonarImage.png)
