@@ -14,9 +14,10 @@ This will place the docker container in the container registry.
 
 ### Add SonarQube and SonarScanner to the GKE and Expose to a port
 Go to SonarQube and SonarScanner in the Container Registry. <br> 
-[[Enter image Here]] <br>
+![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/SonarContainer.png)
 <p>Select Deploy to GKE (No environment variables needed so just provide a name under Value 1) </p>
+Change the replicas to 1 <br>
 Go to Workloads under the Kubernetes Registry and expose to 8080:8080 for SonarQube
 
 ### End Result
-[[Enter image Here]
+![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/SonarImage.png)
