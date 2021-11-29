@@ -18,7 +18,7 @@ docker push gcr.io/${PROJECT_NAME}/bde2020/hadoop-datanode:1.0
 This will place the docker containers for hadoop-namenode and hadoop-datanode in the container registry.
 
 ### Add hadoop-namenode to the GKE and Expose to a port
-Go to Hadoop Namenode in the Container Registry. <br> 
+Go to Hadoop Namenode in the Container Registry.
 ![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/NamenodeContainer.png)
 Select Deploy to GKE and add the following enviroment vairables
 ![Alt text](https://github.com/atr34/CS1660_project1/blob/main/Images/NameNodeEnvironmentVariables.png)
