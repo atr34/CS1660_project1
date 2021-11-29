@@ -1,7 +1,7 @@
 # Jupyter Notebook
 
 Use this docker image when following the instructions<br>
-https://hub.docker.com/r/jupyter/datascience-notebook <br>
+https://hub.docker.com/r/jupyter/datascience-notebook <br><br>
 To containerize the image run 
 ```bash
 docker run -p 8888:8888 jupyter/scipy-notebook:33add21fab64
