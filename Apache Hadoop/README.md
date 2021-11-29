@@ -4,7 +4,7 @@ Use this docker image when following the instructions<br>
 https://hub.docker.com/r/bde2020/hadoop-namenode
 https://hub.docker.com/r/bde2020/hadoop-datanode
 
-<br>
+
 To containerize run `docker-compose up` command in this directory
 
 
