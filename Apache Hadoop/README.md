@@ -5,10 +5,8 @@ https://hub.docker.com/r/bde2020/hadoop-namenode
 https://hub.docker.com/r/bde2020/hadoop-datanode
 
 <br>
-To containerize run the following command in this directory
-```bash
-docker-compose up
-```
+To containerize run `docker-compose up` command in this directory
+
 
 ### Create the Container in Google Cloud
 In your cluster cloud shell run the following commands
