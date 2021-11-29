@@ -1,4 +1,4 @@
-# Hadoop
+# Apache Spark
 
 Use this docker image when following the instructions<br>
 https://hub.docker.com/r/bitnami/spark
