@@ -3,6 +3,11 @@
 Use this docker image when following the instructions<br>
 https://hub.docker.com/_/sonarqube
 
+To containerize the image run 
+```bash
+$ docker build --tag=sonarqube-custom .
+$ docker run -ti sonarqube-custom
+```
 ### Create the Container in Google Cloud
 In your cluster cloud shell run the following commands
 ```bash
