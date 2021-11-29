@@ -3,6 +3,7 @@
 Use this docker image when following the instructions<br>
 https://hub.docker.com/repository/docker/atreuter/project_webapp
 
+To containerize this image run the Dockerfile
 ### Create the Container in Google Cloud
 In your cluster cloud shell run the following commands
 ```bash
